@@ -4,3 +4,33 @@
 body{
   font-family: sans-serif;
 }
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+section{
+  display: none;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+/*botones*/
+.vis{
+  display: block;
+}
+.ant{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  height: 15vh;
+  width: 10vw;
+}
+.sig{
+  position: fixed;
+  top: 50%;
+  height: 15vh;
+  width: 10vw;
+  right: 0;
+}
+/*botones*/
