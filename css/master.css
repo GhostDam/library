@@ -21,13 +21,16 @@ section{
 button{
   border: none;
   background-color: black;
-  color: white; 
+  color: white;
 }
 ul{
   justify-content: center;
   display: flex;
   list-style: none;
   padding: 0;
+}
+.dis{
+  background-color: red;
 }
 /*botones*/
 .vis{

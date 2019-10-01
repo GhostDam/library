@@ -21,11 +21,20 @@ $(".buttons").hide();
     $(".buttons").toggle();
   })
   $(".sig").click(function(){
+    $(".dis").next().addClass("dis").prev().removeClass("dis");
     $(".vis").next("section").addClass("vis").prev().removeClass("vis");//se hace visible la tab actual
   })
   $(".ant").click(function(){
+    $(".dis").prev().addClass("dis").next().removeClass("dis");
     $(".vis").prev("section").addClass("vis").next().removeClass("vis");//se hace visible la tab actual
   })
-
+$("li").click(function(){
+  var ref = $(this).attr("href")
+  $("section").removeClass("vis")
+  $("li").removeClass("dis")
+  $(this).addClass("dis")
+  $(ref).addClass("vis")
+  console.log($(this).attr("href"))
+})
 
 });//end of the line
