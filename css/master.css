@@ -9,8 +9,10 @@ nav{
   justify-content: space-around;
 }
 section{
+  border: 1px solid gray;
   display: none;
-  width: 95%;
+  max-width: 95%;
+  padding: 10px;
   margin: 0 auto;
   font-size: 15px;
 }

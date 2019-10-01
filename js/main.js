@@ -7,6 +7,7 @@ var header = `<h1>Selecciona la historia que quieres leer</h1>
       </nav>`;
 var bottom = `<button type="button" class="ant">Ant</button>
               <button type="button" class="sig">Sig</button>`;
+var footer = `<footer>aqui esta el footer ma homs</footer>`;
 function loadpage(top, bot) {
   var up = document.getElementById('head')
   var dn = document.getElementById('botton')
