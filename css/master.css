@@ -2,6 +2,7 @@
   box-sizing: inherit;
 }
 body{
+  background-color: gray;
   font-family: sans-serif;
 }
 nav{
@@ -9,6 +10,7 @@ nav{
   justify-content: space-around;
 }
 section{
+  background-color: white;
   border: 1px solid gray;
   display: none;
   max-width: 95%;
@@ -16,7 +18,17 @@ section{
   margin: 0 auto;
   font-size: 15px;
 }
-
+button{
+  border: none;
+  background-color: black;
+  color: white; 
+}
+ul{
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
 /*botones*/
 .vis{
   display: block;
