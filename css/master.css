@@ -9,6 +9,9 @@ nav{
   display: flex;
   justify-content: space-around;
 }
+img{
+  width: 100%;
+}
 section{
   background-color: white;
   border: 1px solid gray;
@@ -28,6 +31,9 @@ ul{
   display: flex;
   list-style: none;
   padding: 0;
+}
+li{
+  margin: 0 2px;
 }
 .dis{
   background-color: red;
